@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+<div data-role="page">
+  <div data-role="header">
+    <h1>PROFILE</h1>
+  </div>
+  
+  <div data-role="main" class="ui-content">
+<p>
+<form action="action_page.php">
+
+  <div class="ui-field-contain">
+  <label for="info">NAME</label>
+        <textarea name="addinfo" id="info"></textarea>
+	<div>
+   <br><br>
+GENDER
+  <select name="GENDER">
+    <option value="FEMLAE">FEMALE</option>
+    <option value="MALE">MALE</option>
+  </select>
+  <br><br>
+  <form method="post" action="demoform.asp">
+      <label for="AGE">AGE:</label>
+      <input type="range" name="points" id="points" value="50" min="0" max="100">
+      <input type="submit" data-inline="true" value="Submit">
+    </form>
+
+ BucketPanter Gender 
+    <select name="AGE">
+    <option value="FEMLAE">FEMALE</option>
+    <option value="MALE">MALE</option>
+  </select>
+   <br><br>
+ WHAT ARE YOU SEEKING 
+   <select name="SEEKING">
+    <option value="FRIEND">FRIEND</option>
+    <option value="FRIEND WITH BENFITS">FRIEND WITH BENFITS</option>
+	<option value="RELATIONSHIP">RELATIONSHIP</option>
+  </select>
+  <div class="ui-field-contain">
+  <label for="info">ABOUT ME:</label>
+        <textarea name="addinfo" id="info"></textarea>
+	<div>
+   <br><br>
+  <input type="submit">
+ </p> 
+</form>
+</body>
+ <div data-role="footer">
+ <div>
+</html> 
