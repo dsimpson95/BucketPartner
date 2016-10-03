@@ -21,7 +21,7 @@
 <form id="profilepic_form">
 <fieldset id="profilepic_controls">
 
- <div style="width: 120px; height: 100px; position:center; background-color:blue;border: 1px solid #b8b8b8; "data-controltype="image">
+ <div style="width: 120px; height: 100px; position:relative; background-color:blue;border: 1px solid #b8b8b8; "data-controltype="image">
   <img src="https://codiqa.com/static/images/v2/image.png" alt="image" style="position:absolute; top: 50%; center: 50%; margin-top: -18px">
 
    <div style= "top:50px;"data-role="fieldcontain" data-controltype="camerainput">
