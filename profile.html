@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta charset="utf-8" />
+      <link rel="stylesheet" href="css/themes/redo.css" />
+      <link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+      <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+      <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+      <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    </head>
+          <body>
+                                <div data-role="page">
+                                  <div data-role="header"  data-theme="c">
+                                    <h1>PROFILE</h1>
+                                  </div>
+                          
+                          <div data-role="main" class="ui-content">
+                        <p>
+                        <form action="action_page.php">
+
+                        <form id="profilepic_form">
+                        <fieldset id="profilepic_controls">
+
+                         <div style="width: 120px; height: 100px; position:relative; background-color:blue;border: 1px solid #b8b8b8; "data-controltype="image">
+                          <img src="https://codiqa.com/static/images/v2/image.png" alt="image" style="position:absolute; top: 50%; center: 50%; margin-top: -18px">
+
+                           <div style= "top:50px;"data-role="fieldcontain" data-controltype="camerainput">
+                            <input type="file" name="" id="camerainput1" accept="image/*" capture=>
+                           </div>
+
+                         </div>
+                         <br><br>
+                        </fieldset>
+                        </form>
+
+                        <form>
+                          NAME:<br>
+                          <input type="text" name="name"><br>
+                        </form>
+                           
+                        GENDER
+                          <select name="GENDER">
+                            <option value="FEMLAE">FEMALE</option>
+                            <option value="MALE">MALE</option>
+                          </select>
+                          <br><br>
+                          
+                        AGE
+                            <select name="AGE">
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                            <option value="26">26</option>
+                            <option value="27">27</option>
+                            <option value="28">28</option>
+                            <option value="29">29</option>
+                            <option value="30">30</option>
+                            <option value="31">31</option>
+                            <option value="32">32</option>
+                            <option value="33">33</option>
+                            <option value="34">34</option>
+                            <option value="35">35</option>
+                          </select>
+                           <br><br>
+
+                         BUCKETPARTNER GENDER 
+                            <select name="GENDERSEEK">
+                            <option value="FEMLAE">FEMALE</option>
+                            <option value="MALE">MALE</option>
+                          </select>
+                           <br><br>
+                         WHAT ARE YOU SEEKING 
+                           <select name="SEEKING">
+                            <option value="FRIEND">FRIEND</option>
+                            <option value="FRIEND WITH BENFITS">FRIEND WITH BENFITS</option>
+                        	<option value="RELATIONSHIP">RELATIONSHIP</option>
+                          </select>
+                          <div class="ui-field-contain">
+                          <label for="info">ABOUT ME:</label>
+                                <textarea name="addinfo" id="info"></textarea>
+                        	</div>
+                           <br><br>
+
+                          <input type="submit" value= "SUBMIT">
+                         </p> 
+                        </form>
+    </body>
+    </div>
+   <div data-role="footer"  data-theme="c">
+   <div>
+   </div>
+   </div>
+
+  </html> 
