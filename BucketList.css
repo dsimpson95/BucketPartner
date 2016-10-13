@@ -1,0 +1,29 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+h1 {
+	text-align: center;
+
+}
+
+.button {
+	border: 4px double #ff8533;
+	color: orange;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 18px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+.buttonHolder {
+	text-align: center;
+}
+
+.buttonHolder2 {
+	text-align: center;
+}
